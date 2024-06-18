@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "baseUrl": "https://cordel-ashen.vercel.app/",
+       "target": "ES6",
+       "types": ["cypress"]
+    },
+    "include": ["**/*.ts", "support/commands.ts"]
+   }
