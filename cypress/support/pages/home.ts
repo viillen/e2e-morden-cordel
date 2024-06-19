@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 require('cypress-xpath');
-import { TEXTS, TITLE_SUBTITLES, FOOTER } from "./elements";
+import { TEXTS, TITLE_SUBTITLES, FOOTER, LINKS } from "./elements";
 import {XPATHS} from "./xpaths.sel"
 
 
@@ -255,6 +255,29 @@ class validate {
         .should('have.css', 'background-color', 'rgb(0, 0, 0)')
         .should('have.css', 'padding', '10px' )
         .should('have.css', 'margin', '0px')
+    }
+
+    links(){
+        cy.get(LINKS.Author).contains('Milton Duarte').invoke('removeAttr', 'target').click()
+        cy.origin('https://www.recantodasletras.com.br/poesias/3186743', () => {
+            cy.url().should('eq', 'https://www.recantodasletras.com.br/poesias/3186743')
+            cy.contains('CORDEL MODERNO').should('exist')
+            cy.go('back')
+    })
+
+        cy.get(LINKS.CreatorWebPage).contains('Gustavo Guanabara').invoke('removeAttr', 'target').click()
+        cy.origin('https://gustavoguanabara.github.io/', () => {
+            cy.url().should('eq', 'https://gustavoguanabara.github.io/')
+            cy.contains('Gustavo Guanabara').should('exist')
+            cy.go('back')
+    })
+
+        cy.get(LINKS.Course).contains('Cursoemvideo').invoke('removeAttr', 'target').click()
+        cy.origin('https://www.cursoemvideo.com/', () => {
+            cy.url().should('eq', 'https://www.cursoemvideo.com/')
+            cy.contains('Cursos').should('exist')
+            cy.go('back')
+})
     }
 }
 

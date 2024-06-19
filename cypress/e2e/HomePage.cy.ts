@@ -24,4 +24,8 @@ describe('VALIDATE HOME PAGE', () => {
     it('Layout - Home', () => {
       validate.LayoutCSS()
     })
+
+    it('Links - Home', () => {
+      validate.links()
+    })
   })

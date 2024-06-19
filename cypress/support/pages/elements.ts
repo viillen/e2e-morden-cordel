@@ -19,5 +19,11 @@ const FOOTER = {
     WebPageFooter: '[data-cy="footer_p1"]'
 }
 
+const LINKS = {
+    Author: '[data-cy="header_p1"] > a',
+    CreatorWebPage: '[href="https://gustavoguanabara.github.io"]',
+    Course: '[href="https://www.cursoemvideo.com"]'
+}
 
-export { TEXTS, TITLE_SUBTITLES, FOOTER}
+
+export { TEXTS, TITLE_SUBTITLES, FOOTER, LINKS}
