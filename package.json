@@ -1,6 +1,19 @@
 {
   "devDependencies": {
+    "@percy/cli": "^1.28.7",
+    "@percy/cypress": "^3.1.3-beta.0",
     "cypress": "^13.11.0",
+    "cypress-xpath": "^2.0.1",
     "typescript": "^5.4.5"
-  }
+  },
+  "name": "e2e-morden-cordel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
