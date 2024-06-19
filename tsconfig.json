@@ -2,7 +2,7 @@
     "compilerOptions": {
       "baseUrl": "https://cordel-ashen.vercel.app/",
        "target": "ES6",
-       "types": ["cypress"]
+       "types": ["cypress", "node", "cypress-xpath", "@percy/cypress"]
     },
-    "include": ["**/*.ts", "support/commands.ts"]
+    "include": ["**/*.ts", "**/*.sel.ts", "support/commands.ts"]
    }
