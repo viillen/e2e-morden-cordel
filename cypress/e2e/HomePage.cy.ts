@@ -1,9 +1,12 @@
 /// <reference types="cypress" />
 import validate from "../support/pages/home"
+import '@percy/cypress';
+require('cypress-xpath');
 
 describe('VALIDATE HOME PAGE', () => {
     beforeEach(() => {
       cy.visit('/')
+      validate.VisualTesting()
     })
 
     it('Texts - Home', () => {
@@ -15,6 +18,10 @@ describe('VALIDATE HOME PAGE', () => {
     })
 
     it('Footer - Home', () => {
-        validate.footer()
+      validate.footer()
+    })
+
+    it('Layout - Home', () => {
+      validate.LayoutCSS()
     })
   })

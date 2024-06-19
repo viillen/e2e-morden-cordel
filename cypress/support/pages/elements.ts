@@ -19,4 +19,5 @@ const FOOTER = {
     WebPageFooter: '[data-cy="footer_p1"]'
 }
 
+
 export { TEXTS, TITLE_SUBTITLES, FOOTER}
