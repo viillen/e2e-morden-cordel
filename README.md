@@ -3,7 +3,7 @@
 
 # Cordel Moderno - Projeto E2E
 
-> Este projeto consiste na criação de testes automatizados End-to-End (E2E) para o site Cordel Moderno, desenvolvido por [Gustavo Guanabara](https://github.com/gustavolohn) e baseado no [Curso em Vídeo](https://www.cursoemvideo.com/). O objetivo é garantir a qualidade e a funcionalidade do site através de testes abrangentes.
+> Este projeto consiste na criação de testes automatizados End-to-End (E2E) para o site Cordel Moderno, desenvolvido por [Gustavo](https://github.com/gustavolohn) e baseado no [Curso em Vídeo](https://www.cursoemvideo.com/). O objetivo é garantir a qualidade e a funcionalidade do site através de testes abrangentes.
 
 ## Funcionalidades Testadas
 
@@ -66,7 +66,7 @@ Para instalar e rodar os testes localmente, siga os passos abaixo:
    ---
 <div align="center"> 
   
-## Este projeto de testes E2E foi desenvolvido para o site Cordel Moderno criado por [Gustavo Guanabara](https://github.com/gustavolohn), com o intuito de aprimorar a qualidade e a confiabilidade do site.
+## Este projeto de testes E2E foi desenvolvido para o site Cordel Moderno criado por [Gustavo](https://github.com/gustavolohn), com o intuito de aprimorar a qualidade e a confiabilidade do site.
 
 </div> 
 
